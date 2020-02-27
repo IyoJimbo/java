@@ -16,6 +16,7 @@ public class RegistServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         User user=new User();
+        //kandejian
 
         user.setName(request.getParameter("username"));
         //user.setPassword(request.getParameter("userPassword"));
